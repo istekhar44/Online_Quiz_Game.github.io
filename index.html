@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link data-asynced="1" as="style" onload="this.onload=null;this.rel='stylesheet'" rel="preload" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz App</h1>
+    <div id="question-container" class="hide">
+      <p id="question-text"></p>
+      <img id="question-image" class="hide" alt="Question Image">
+      <div id="answer-buttons" class="btn-grid"></div>
+    </div>
+    <div id="controls-container">
+      <button id="start-button" class="start-btn">Start Quiz</button>
+      <div id="timer-container" class="hide">
+        <span id="timer-text">Time Left: <span id="timer">30</span></span>
+      </div>
+    </div>
+    <div id="result-container" class="hide">
+      <h2>Quiz Results</h2>
+      <p id="result-text"></p>
+      <p id="badge-text"></p>
+      <button id="restart-button" class="start-btn">Restart Quiz</button>
+    </div>
+    <div id="leaderboard-container" class="hide">
+      <h2>Leaderboard</h2>
+      <ul id="leaderboard"></ul>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
